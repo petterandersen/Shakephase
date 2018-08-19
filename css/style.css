@@ -1,0 +1,85 @@
+body{
+  /*background-color: #a6e3dc;*/
+
+  background-image: url('../img/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+/*-------------
+ LOGO
+--------------*/
+.logo{
+  padding: 0px;
+  max-width: 260px;
+  max-height: 260px;
+  margin: 40px auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px #444;
+}
+
+.logo img{
+  width: 100%;
+  transition: ease-in-out 1s;
+}
+
+.logo img:hover{
+  transform: rotate(720deg);
+}
+
+/*-------------
+ Release grid
+--------------*/
+.release-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1em;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.release-item{
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px #ccc;
+}
+
+.release-item img{
+  vertical-align: middle;
+  width: 100%;
+}
+
+/*-------------
+  Content
+--------------*/
+.main-content{
+  padding: 2em;
+  background-color: #fff;
+  box-shadow: 0px 0px 40px #444;
+}
+
+.someLinks{
+  text-align: center;
+  padding: 1em;
+}
+
+.someLinks a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/*-------------
+  Footer
+--------------*/
+.someLinks a:hover{
+  text-decoration: none;
+  color: #1EAEDB;
+}
+
+i.fab{
+  font-size: 2em;
+}
